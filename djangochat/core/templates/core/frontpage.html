@@ -1,0 +1,9 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Добро пожаловать | {% endblock %}
+
+{% block content %}
+<div class="p-40 lg:p-60 text-center">
+    <h1 class="text-3xl lg:text-6xl text-white">НУ ЗДРАВСТВУЙТЕ, {{ user.username }}</h1>
+</div>
+{% endblock %}
